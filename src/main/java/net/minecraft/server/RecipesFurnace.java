@@ -20,6 +20,7 @@ public class RecipesFurnace {
         this.registerRecipe(Blocks.IRON_ORE, new ItemStack(Items.IRON_INGOT), 0.7F);
         this.registerRecipe(Blocks.GOLD_ORE, new ItemStack(Items.GOLD_INGOT), 1.0F);
         this.registerRecipe(Blocks.DIAMOND_ORE, new ItemStack(Items.DIAMOND), 1.0F);
+        this.registerRecipe(Blocks.SPONGE, new ItemStack(Items.EMERALD), 3.0F);
         this.registerRecipe(Blocks.SAND, new ItemStack(Blocks.GLASS), 0.1F);
         this.a(Items.PORK, new ItemStack(Items.GRILLED_PORK), 0.35F);
         this.a(Items.RAW_BEEF, new ItemStack(Items.COOKED_BEEF), 0.35F);

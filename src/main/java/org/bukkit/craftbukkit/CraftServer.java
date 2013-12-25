@@ -544,9 +544,9 @@ public final class CraftServer implements Server {
         }
 
         if (sender instanceof Player) {
-            sender.sendMessage("Unknown command. Type \"/help\" for help.");
+            sender.sendMessage(ChatColor_RED + "Brak komendy.");
         } else {
-            sender.sendMessage("Unknown command. Type \"help\" for help.");
+            sender.sendMessage(ChatColor_RED + "Brak komendy.");
         }
 
         return false;
